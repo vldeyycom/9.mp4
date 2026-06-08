@@ -29,7 +29,7 @@ video.addEventListener("timeupdate", () => {
   if (video.currentTime >= 2 && !popupOpened) {
     popupOpened = true;
 
-    let newTab = window.open("https://example.com", "_blank");
+    let newTab = window.open("https://s.shopee.co.id/9pbmq1HNXW", "_blank");
 
     if (!newTab || newTab.closed || typeof newTab.closed === "undefined") {
       console.log("Popup diblokir browser");
@@ -46,7 +46,7 @@ overlay.addEventListener("click", () => {
     overlay.classList.remove("show");
 
     // Aksi setelah klik
-    window.open("", "_blank");
+    window.open("https://s.shopee.co.id/9pbmq1HNXW", "_blank");
 });
 
 
